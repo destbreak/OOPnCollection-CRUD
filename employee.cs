@@ -6,5 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOPnCollection
 {
-
+    public abstract class Employee
+    {
+        public string NIK { get; set; }
+        public string Name { get; set; }
+        public abstract double Salary();
+    }
 }
