@@ -10,6 +10,7 @@ namespace OOPnCollection
     {
         public string NIK { get; set; }
         public string Name { get; set; }
+        public string Type { get; set; }
         public abstract double Salary();
     }
 }
